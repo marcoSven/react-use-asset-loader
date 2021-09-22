@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-use-asset-loader/static/css/main.2c6a48fe.chunk.css",
+    "main.js": "/react-use-asset-loader/static/js/main.3038cfe7.chunk.js",
+    "main.js.map": "/react-use-asset-loader/static/js/main.3038cfe7.chunk.js.map",
+    "runtime-main.js": "/react-use-asset-loader/static/js/runtime-main.b9b33123.js",
+    "runtime-main.js.map": "/react-use-asset-loader/static/js/runtime-main.b9b33123.js.map",
+    "static/js/2.d6f6d597.chunk.js": "/react-use-asset-loader/static/js/2.d6f6d597.chunk.js",
+    "static/js/2.d6f6d597.chunk.js.map": "/react-use-asset-loader/static/js/2.d6f6d597.chunk.js.map",
+    "index.html": "/react-use-asset-loader/index.html",
+    "precache-manifest.4a072f0cb95dcfad2eaf97e09136a57d.js": "/react-use-asset-loader/precache-manifest.4a072f0cb95dcfad2eaf97e09136a57d.js",
+    "service-worker.js": "/react-use-asset-loader/service-worker.js",
+    "static/css/main.2c6a48fe.chunk.css.map": "/react-use-asset-loader/static/css/main.2c6a48fe.chunk.css.map",
+    "static/js/2.d6f6d597.chunk.js.LICENSE.txt": "/react-use-asset-loader/static/js/2.d6f6d597.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b9b33123.js",
+    "static/js/2.d6f6d597.chunk.js",
+    "static/css/main.2c6a48fe.chunk.css",
+    "static/js/main.3038cfe7.chunk.js"
+  ]
+}
