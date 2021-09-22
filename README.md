@@ -13,18 +13,41 @@ npm install --save react-use-asset-loader
 ## Usage
 
 ```tsx
-import * as React from 'react'
+import * as React from "react";
 
-import { useMyHook } from 'react-use-asset-loader'
+import useLoadAssets from "react-use-asset-loader";
 
 const Example = () => {
-  const example = useMyHook()
+  const loadAssets = useLoadAssets();
   return (
-    <div>
-      {example}
-    </div>
-  )
-}
+    <button
+      onClick={() =>
+        loadAssets({
+          assets: [
+            {
+              type: "link",
+              values: {
+                url: "https://sample.css",
+                id: "sample-css",
+                rel: "stylesheet",
+                type: "text/css",
+              },
+            },
+            {
+              type: "script",
+              values: {
+                url: "https://sample.js",
+                id: "sample-js",
+              },
+            },
+          ],
+        })
+      }
+    >
+      Test
+    </button>
+  );
+};
 ```
 
 ## License
